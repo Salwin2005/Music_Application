@@ -58,9 +58,10 @@ const PopularAlbums = () => {
                       />
                       <h1 className="py-2 text-center mt-2 rounded text-xl font-semibold">
                         {album?.albumTitle}
+                        
                       </h1>
                     </div>
-                  </NavLink>
+                  </NavLink> 
                 );
               })}
             </div>
